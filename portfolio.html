@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header class="cabecalho">
+    <nav class="cabecalho__menu">
+        <a class=cabecalho__menu__links href="index.html">Home</a>
+        <a class=cabecalho__menu__links href="about.html">Sobre mim</a>
+        <a class=cabecalho__menu__links href="portfolio.html">Portfolio</a>
+        <a class=cabecalho__menu__links href="acervo.html">Acervo</a>
+    </nav>
+   </header> 
+   <main class="apresentacao">
+    <section class="apresentacao__conteudo__portfolio">
+        <h1 class="apresentacao__conteudo__titulo"> Portfolio </h1>
+    </section>
+
+        <div class="slider">
+
+    <div class="slides">
+        <!--Radio Buttons-->
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
+        <input type="radio" name="radio-btn" id="radio5">
+
+        <!--slide imagens-->
+    <div class="slide first">
+        <img src="./assets/imagem 2.jpg">
+    </div> 
+
+    <div class="slide">
+        <img src="./assets/imagem 1.jpg">
+    </div>
+
+    <div class="slide">
+        <img src="./assets/imagem 3.jpg">
+    </div>
+
+    <div class="slide">
+        <img src="./assets/imagem 4.jpg">
+    </div>
+
+    <div class="slide">
+        <img src="./assets/imagem 5.jpg">
+    </div>
+    
+    <!--navigation auto-->
+    <div class="navigation-auto">
+        <div class="auto-btn1"></div>
+        <div class="auto-btn2"></div>
+        <div class="auto-btn3"></div>
+        <div class="auto-btn4"></div>
+        <div class="auto-btn5"></div>
+    </div>
+
+    <div class="manual-navigation">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+        <label for="radio5" class="manual-btn"></label>
+    </div>
+
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+  </main>
+   <footer class="rodape"><p>Desenvolvido por Aline</p></footer>
+</body>
+</html>
